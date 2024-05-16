@@ -14,15 +14,15 @@ CONFIG_SHELL='/nix/store/4vzal97iq3dmrgycj8r0gflrh51p8w1s-bash-5.2p26/bin/bash'
 export CONFIG_SHELL
 CXX='g++'
 export CXX
-DEVENV_DOTFILE='/home/keith/Projects/rust-flake-parts/.devenv'
+DEVENV_DOTFILE='/home/keith/Projects/nix-rust-flake-parts/.devenv'
 export DEVENV_DOTFILE
 DEVENV_PROFILE='/nix/store/q2340cdgwhbhq00xrpx4imp952541ki1-devenv-profile'
 export DEVENV_PROFILE
-DEVENV_ROOT='/home/keith/Projects/rust-flake-parts'
+DEVENV_ROOT='/home/keith/Projects/nix-rust-flake-parts'
 export DEVENV_ROOT
-DEVENV_RUNTIME='/run/user/1000/devenv-12adb1c'
+DEVENV_RUNTIME='/run/user/1000/devenv-917e7aa'
 export DEVENV_RUNTIME
-DEVENV_STATE='/home/keith/Projects/rust-flake-parts/.devenv/state'
+DEVENV_STATE='/home/keith/Projects/nix-rust-flake-parts/.devenv/state'
 export DEVENV_STATE
 HOSTTYPE='x86_64'
 HOST_PATH='/nix/store/0r1h62d77sa24i0r4k6sqs5gmgmbx28x-compiler-rt-libc-17.0.6/bin:/nix/store/mb488rr560vq1xnl10hinnyfflcrd51n-coreutils-9.4/bin:/nix/store/rr5pqqck5f6fjkv7agwjyhaljvh27ncn-findutils-4.9.0/bin:/nix/store/n6i46dn14q3iq82gqgb5qkl74aqhwr77-diffutils-3.10/bin:/nix/store/q7kq0naays5251ihghw0ccsz39id7kk5-gnused-4.9/bin:/nix/store/320v66ili0mwnyrxj3dwbxm0z8ndkbw7-gnugrep-3.11/bin:/nix/store/sgpv5hm93gzkcm4s536nmkpag3q5d22s-gawk-5.2.2/bin:/nix/store/zq7c5lha3pzixhs8vgy0c0k2sn9s6kq9-gnutar-1.35/bin:/nix/store/7cwczzalpxnd1rp42xz69c43p994x6wl-gzip-1.13/bin:/nix/store/f7i053lqqbppa3nx3nbmk6y46wy06shj-bzip2-1.0.8-bin/bin:/nix/store/3wwka0sn2h96cmqxyclj2vba26a5sk1s-gnumake-4.4.1/bin:/nix/store/4vzal97iq3dmrgycj8r0gflrh51p8w1s-bash-5.2p26/bin:/nix/store/yb3vxdqkdx672wl4hg92xf1zhykjjppr-patch-2.7.6/bin:/nix/store/p6iz6wa3lqwzf5nbihpv52zpp1ji9243-xz-5.6.0-bin/bin:/nix/store/pqraddz55s3qlsjxs71zwjchj0c4csfw-file-5.45/bin'
@@ -45,13 +45,13 @@ NIX_CC='/nix/store/qhpw32pz39y6i30b3vrbw5fw6zv5549f-gcc-wrapper-13.2.0'
 export NIX_CC
 NIX_CC_WRAPPER_TARGET_HOST_x86_64_unknown_linux_gnu='1'
 export NIX_CC_WRAPPER_TARGET_HOST_x86_64_unknown_linux_gnu
-NIX_CFLAGS_COMPILE=' -frandom-seed=f9vrw8k7g0 -isystem /nix/store/swyhldyxyqgz4zx1k9zkidk83pjp261z-gnumake-4.4.1/include -isystem /nix/store/swyhldyxyqgz4zx1k9zkidk83pjp261z-gnumake-4.4.1/include -isystem /nix/store/625s0wlxiqb8i4yqqnkrnzk0bg9avsz5-compiler-rt-libc-17.0.6-dev/include -isystem /nix/store/625s0wlxiqb8i4yqqnkrnzk0bg9avsz5-compiler-rt-libc-17.0.6-dev/include -isystem /nix/store/swyhldyxyqgz4zx1k9zkidk83pjp261z-gnumake-4.4.1/include -isystem /nix/store/swyhldyxyqgz4zx1k9zkidk83pjp261z-gnumake-4.4.1/include -isystem /nix/store/625s0wlxiqb8i4yqqnkrnzk0bg9avsz5-compiler-rt-libc-17.0.6-dev/include -isystem /nix/store/625s0wlxiqb8i4yqqnkrnzk0bg9avsz5-compiler-rt-libc-17.0.6-dev/include'
+NIX_CFLAGS_COMPILE=' -frandom-seed=y09mj65r57 -isystem /nix/store/swyhldyxyqgz4zx1k9zkidk83pjp261z-gnumake-4.4.1/include -isystem /nix/store/swyhldyxyqgz4zx1k9zkidk83pjp261z-gnumake-4.4.1/include -isystem /nix/store/625s0wlxiqb8i4yqqnkrnzk0bg9avsz5-compiler-rt-libc-17.0.6-dev/include -isystem /nix/store/625s0wlxiqb8i4yqqnkrnzk0bg9avsz5-compiler-rt-libc-17.0.6-dev/include -isystem /nix/store/swyhldyxyqgz4zx1k9zkidk83pjp261z-gnumake-4.4.1/include -isystem /nix/store/swyhldyxyqgz4zx1k9zkidk83pjp261z-gnumake-4.4.1/include -isystem /nix/store/625s0wlxiqb8i4yqqnkrnzk0bg9avsz5-compiler-rt-libc-17.0.6-dev/include -isystem /nix/store/625s0wlxiqb8i4yqqnkrnzk0bg9avsz5-compiler-rt-libc-17.0.6-dev/include'
 export NIX_CFLAGS_COMPILE
 NIX_ENFORCE_NO_NATIVE='1'
 export NIX_ENFORCE_NO_NATIVE
 NIX_HARDENING_ENABLE='bindnow format fortify fortify3 pic relro stackprotector strictoverflow'
 export NIX_HARDENING_ENABLE
-NIX_LDFLAGS='-rpath /home/keith/Projects/rust-flake-parts/outputs/out/lib  -L/nix/store/x1rqc2xpm67icsrrh5mvcw7c575k47zq-rust-nightly-latest-with-std-2024-04-09/lib -L/nix/store/x1rqc2xpm67icsrrh5mvcw7c575k47zq-rust-nightly-latest-with-std-2024-04-09/lib -L/nix/store/l82dzk5vwy49vz1zvy7anrdc4q0jk8sz-clippy-nightly-latest-with-std-2024-04-09/lib -L/nix/store/l82dzk5vwy49vz1zvy7anrdc4q0jk8sz-clippy-nightly-latest-with-std-2024-04-09/lib -L/nix/store/x1rqc2xpm67icsrrh5mvcw7c575k47zq-rust-nightly-latest-with-std-2024-04-09/lib -L/nix/store/x1rqc2xpm67icsrrh5mvcw7c575k47zq-rust-nightly-latest-with-std-2024-04-09/lib -L/nix/store/l82dzk5vwy49vz1zvy7anrdc4q0jk8sz-clippy-nightly-latest-with-std-2024-04-09/lib -L/nix/store/l82dzk5vwy49vz1zvy7anrdc4q0jk8sz-clippy-nightly-latest-with-std-2024-04-09/lib'
+NIX_LDFLAGS='-rpath /home/keith/Projects/nix-rust-flake-parts/outputs/out/lib  -L/nix/store/x1rqc2xpm67icsrrh5mvcw7c575k47zq-rust-nightly-latest-with-std-2024-04-09/lib -L/nix/store/x1rqc2xpm67icsrrh5mvcw7c575k47zq-rust-nightly-latest-with-std-2024-04-09/lib -L/nix/store/l82dzk5vwy49vz1zvy7anrdc4q0jk8sz-clippy-nightly-latest-with-std-2024-04-09/lib -L/nix/store/l82dzk5vwy49vz1zvy7anrdc4q0jk8sz-clippy-nightly-latest-with-std-2024-04-09/lib -L/nix/store/x1rqc2xpm67icsrrh5mvcw7c575k47zq-rust-nightly-latest-with-std-2024-04-09/lib -L/nix/store/x1rqc2xpm67icsrrh5mvcw7c575k47zq-rust-nightly-latest-with-std-2024-04-09/lib -L/nix/store/l82dzk5vwy49vz1zvy7anrdc4q0jk8sz-clippy-nightly-latest-with-std-2024-04-09/lib -L/nix/store/l82dzk5vwy49vz1zvy7anrdc4q0jk8sz-clippy-nightly-latest-with-std-2024-04-09/lib'
 export NIX_LDFLAGS
 NIX_NO_SELF_RPATH='1'
 NIX_PKG_CONFIG_WRAPPER_TARGET_HOST_x86_64_unknown_linux_gnu='1'
@@ -149,7 +149,7 @@ name='devenv-shell-env'
 export name
 nativeBuildInputs='/nix/store/x1rqc2xpm67icsrrh5mvcw7c575k47zq-rust-nightly-latest-with-std-2024-04-09 /nix/store/34vha8prn83rdy1j0m3mxa3v5drwz0xm-cargo-nightly-latest-2024-04-09 /nix/store/l82dzk5vwy49vz1zvy7anrdc4q0jk8sz-clippy-nightly-latest-with-std-2024-04-09 /nix/store/ggwjpwmqx8vqi4hab4xg8vii2795lapg-rustfmt-preview-nightly-latest-2024-04-09 /nix/store/28hw9px7yxy88c4vilwq2rkz5aycjfc5-rust-analyzer-preview-nightly-latest-2024-04-09 /nix/store/nsk8w4bjma96m0scgmawhi4sr76a52dv-stdenv-linux /nix/store/swyhldyxyqgz4zx1k9zkidk83pjp261z-gnumake-4.4.1 /nix/store/h13crqkagmc11nqgh11dm1n68pfbgxpm-clang-wrapper-17.0.6 /nix/store/xvhmz0507bxxygkb0mrbv0f631ywcz3s-ccls-0.20230717 /nix/store/qhpw32pz39y6i30b3vrbw5fw6zv5549f-gcc-wrapper-13.2.0 /nix/store/5im5xlgzfzlj7mxzw4badjkkpaqxj8l8-pkg-config-wrapper-0.29.2 /nix/store/w1ksvbfj5np3ffny8dp49lyig7x09a9q-hello-2.12.1 /nix/store/csvacgw08cinr1vqidhf4hx2rhcqndfj-devenv /nix/store/5im5xlgzfzlj7mxzw4badjkkpaqxj8l8-pkg-config-wrapper-0.29.2'
 export nativeBuildInputs
-out='/home/keith/Projects/rust-flake-parts/outputs/out'
+out='/home/keith/Projects/nix-rust-flake-parts/outputs/out'
 export out
 outputBin='out'
 outputDev='out'
@@ -180,7 +180,7 @@ preConfigurePhases=' updateAutotoolsGnuConfigScriptsPhase'
 declare -a preFixupHooks=('_moveToShare' '_multioutDocs' '_multioutDevs' )
 preferLocalBuild='1'
 export preferLocalBuild
-prefix='/home/keith/Projects/rust-flake-parts/outputs/out'
+prefix='/home/keith/Projects/nix-rust-flake-parts/outputs/out'
 declare -a propagatedBuildDepFiles=('propagated-build-build-deps' 'propagated-native-build-inputs' 'propagated-build-target-deps' )
 propagatedBuildInputs=''
 export propagatedBuildInputs
@@ -192,10 +192,8 @@ shell='/nix/store/4vzal97iq3dmrgycj8r0gflrh51p8w1s-bash-5.2p26/bin/bash'
 export shell
 shellHook='
 
-export CARGO_INSTALL_ROOT=$('\''/nix/store/mb488rr560vq1xnl10hinnyfflcrd51n-coreutils-9.4/bin/realpath'\'' '\''--no-symlinks'\'' '\''/home/keith/Projects/rust-flake-parts/.devenv/state/cargo-install'\'')
+export CARGO_INSTALL_ROOT=$('\''/nix/store/mb488rr560vq1xnl10hinnyfflcrd51n-coreutils-9.4/bin/realpath'\'' '\''--no-symlinks'\'' '\''/home/keith/Projects/nix-rust-flake-parts/.devenv/state/cargo-install'\'')
 export PATH="$PATH:$CARGO_INSTALL_ROOT/bin"
-
-Gateway to Rust projects
 
 export PS1="\[\e[0;34m\](devenv)\[\e[0m\] ${PS1-}"
 
@@ -223,8 +221,8 @@ then
 fi
 unset HOST_PATH NIX_BUILD_CORES __structuredAttrs buildInputs buildPhase builder depsBuildBuild depsBuildBuildPropagated depsBuildTarget depsBuildTargetPropagated depsHostHost depsHostHostPropagated depsTargetTarget depsTargetTargetPropagated doCheck doInstallCheck nativeBuildInputs out outputs patches phases preferLocalBuild propagatedBuildInputs propagatedNativeBuildInputs shell shellHook stdenv strictDeps
 
-mkdir -p '\''/run/user/1000/devenv-12adb1c'\''
-ln -fs '\''/run/user/1000/devenv-12adb1c'\'' '\''/home/keith/Projects/rust-flake-parts/.devenv'\''/run
+mkdir -p '\''/run/user/1000/devenv-917e7aa'\''
+ln -fs '\''/run/user/1000/devenv-917e7aa'\'' '\''/home/keith/Projects/nix-rust-flake-parts/.devenv'\''/run
 
 '
 export shellHook

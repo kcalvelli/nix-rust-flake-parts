@@ -53,10 +53,6 @@
 
             components = [ "rustc" "cargo" "clippy" "rustfmt" "rust-analyzer" ];
           };
-          
-          enterShell = ''
-            Gateway to Rust projects
-          '';
         };
         
         devenv.shells.projectA = {
