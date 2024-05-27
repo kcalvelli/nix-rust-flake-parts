@@ -78,6 +78,7 @@
           packages = [ 
             config.packages.default
             pkgs.openssl
+            pkgs.just
           ];
 
           languages.rust = {
