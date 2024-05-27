@@ -76,12 +76,23 @@
         #  '';
         };
 
-        devenv.shells.projectB = {
+        devenv.shells.cosmic = {
           # https://devenv.sh/reference/options/
           packages = [ 
             config.packages.default
             pkgs.openssl
             pkgs.just
+            pkgs.pkg-config
+            pkgs.libxkbcommon
+            pkgs.gtk3
+            pkgs.atk
+            pkgs.cairo
+            pkgs.gdk-pixbuf
+            pkgs.glib
+            pkgs.libsecret
+            pkgs.sqlite
+            pkgs.vulkan-loader
+            pkgs.pango
           ];
 
           languages.rust = {
