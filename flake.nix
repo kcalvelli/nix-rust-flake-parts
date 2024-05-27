@@ -44,7 +44,10 @@
           ];
 
           # https://devenv.sh/reference/options/
-          packages = [ config.packages.default ];
+          packages = [ 
+            config.packages.default
+            pkgs.just
+          ];
           
           languages.rust = {
             enable = true;
